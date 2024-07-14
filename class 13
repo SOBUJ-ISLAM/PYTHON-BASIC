@@ -1,0 +1,105 @@
+a = "22sobuj 22222222 promi"
+# print(len (a))
+
+# FOR UPPPER CASE AND LOWER CASE
+
+print(a.upper())
+print(a.lower())
+
+# FOR STRIP ANYRHING
+# it remove any thing like space,tab,enter
+
+print(a.rstrip("2"))
+
+
+# FOR REPLACE
+print(a.replace("sobuj","promi"))
+
+# FOR SPLIT
+print(a.split(" "))
+
+
+# FOR CAPITALIZE
+quotation = "to be or not to be That is the queStion"
+print(quotation.capitalize())
+
+# FOR CENTER METHODE
+print (quotation.center(50))
+
+# FOR COUNT
+print (a.count("2"))
+
+#  FOR ENDSWITH
+b= "welcome to replit"
+print(len(b))
+print(b.endswith("t"))
+print(b.endswith("replit",11,17))
+
+# FOR STARTSWITH
+print (b.startswith("w"))
+
+
+#   FOR FIND
+c ="he 's, sobuj is best programmar, he is the best"
+print(c.find("is"))
+
+# if python did not find the words it will show _1
+print(c.find("isis"))
+
+#  FOR INDEX
+print (c.index('is'))
+
+# it will show error if python did not find the words
+print (c.index('isis'))
+
+#  FOR ISALNUM
+# it will show true if the string is alphanumeric
+d ="welcomehome"
+print (d.isalnum())
+e ="welcom ehome"
+print (e.isalnum())
+
+#  FOR ISALPHA
+# it shows all the charecter is alphabet or not
+e ="Welcomehome22"
+print (e.isalpha())
+
+# FOR ISLOWER
+#  it find out is all the charecter in the string is in lower case or not
+print (e.islower())
+
+ # FOR ISUPPER
+#  it find out is all the charecter in the string is in upper case or not
+print (e.swapcase())
+
+# FOR SWAPCASE
+# it change the upper case to lower case and lower case to upper case
+print (e.swapcase())
+
+# FOR ISPRINTABLE
+#  if all the charecter in the sting is pritable or not
+f= "assalamu alaikum"
+print(f.isprintable())
+f= "assalamu alaikum\n"
+print(f.isprintable())
+
+
+ # FOR ISSPACE
+#  it find space in string it will show TRUE otherwise FALSE 
+print (f.isspace())
+g= "     "
+print (g.isspace())
+
+
+ # FOR ISTITLE
+ # it find first letter of the string capital or not
+h= "Hello World"
+print(h.istitle())
+i= "hello World"
+print(i.istitle())
+
+# FOR TITLE
+# it change the first letter of the string to capital
+j= "hello world"
+print(j.title())
+
