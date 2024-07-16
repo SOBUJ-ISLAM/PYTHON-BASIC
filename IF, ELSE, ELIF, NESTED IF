@@ -1,0 +1,54 @@
+#  FOR IF, ELSE
+
+a=int(input("Enter your age"))
+print("your age is:",a)
+if (a>18):
+  print("You can drive")
+else:
+  print ("You cannot drive")
+
+# CONDITIONAL OPERETORS
+# >, <, >=, <=, ==, !=
+
+a=int(input("Enter your age"))
+print("your age is:",a)
+print(a>18)
+print(a<18)
+print(a>=18)
+print(a<=18)
+print(a!=18)
+if (a>18):
+  print("You can drive")
+else:
+  print ("You cannot drive")
+
+
+# ELIF
+# IF, ELIF, ELSE   works respepectively, if the first condition is true then it will not check the other conditions. you may use as many elif as you want.
+
+rice_price = int(input("market price of rice"))
+budget =int(input("how much mony in your pioket"))
+if (budget-rice_price >50):
+  print("you can buy rice")
+elif (budget-rice_price ==50):
+  print ("you may think about it")
+else:
+  print("you cannot buy rice")
+  
+
+# NESTED IF
+# it means if the first condition is true then it will check the second condition. and  you may use as many nested if as you want.
+
+num = int(input("Enter the value of num: "))
+if (num < 0):
+    print("Number is negative.")
+elif (num > 10):
+  if (num <= 0):
+    print("Number is between 1-10")
+  elif (num > 10 and num <= 20):
+    print("number is between 11-20")
+  else:
+    print("number is gater than 20")
+else:
+  print("number is zero")
+  
