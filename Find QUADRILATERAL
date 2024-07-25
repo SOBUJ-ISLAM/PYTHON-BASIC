@@ -1,0 +1,31 @@
+cone1= float (input ("enter the value of cone 1: "))
+cone2= float (input ("enter the value of cone 2: "))
+cone3= float (input ("enter the value of cone 3: "))
+cone4= float (input ("enter the value of cone 4: "))
+side1= float (input ("enter the value of side 1: "))
+side2= float (input ("enter the value of side 2: "))
+side3= float (input ("enter the value of side 3: "))
+side4= float (input ("enter the value of side 4: "))
+
+
+
+if cone1+cone2+cone3+cone4 != 360:
+  print ("invalid angel for quadrilateral")
+elif (cone1==cone2==cone3==cone4==90):
+  if (side1==side2==side3==side4):
+    print ("it is a square")
+  elif (side1==side3 and side3==side4):
+    print ("it is a rectangle")
+
+  else:
+   print("it is a quadrilateral but not a square   or a recangle")
+
+elif cone1 != 90 and cone2 != 90 and cone3 != 90 and cone4 != 90:
+    if side1 == side2 == side3 == side4:
+        print("It is a rhombus")
+    elif cone1 == cone3 and cone2 == cone4 and side1 == side3 and side2 == side4:
+        print("It is a parallelogram")
+    else:
+        print("It is a general quadrilateral")
+else:
+    print("The provided angles and sides do not match any known shape")
